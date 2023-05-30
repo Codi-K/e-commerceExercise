@@ -16,21 +16,21 @@ let products = [
     {
         id: 3,
         name: "God of War Raganarok PS4",
-        image: "https://i.postimg.cc/L86CRDhc/gran-turismo-7-ps4-box-front.webp",
+        image: "https://i.postimg.cc/sDJ6tqfP/ps4-god-of-war-ragnarok-launch-edition-box-front.webp",
         price: "R999"
 
     },
     {
         id: 4,
         name: "Horizon Forbidden West PS5",
-        image: "https://i.postimg.cc/L86CRDhc/gran-turismo-7-ps4-box-front.webp",
+        image: "https://i.postimg.cc/rwnhp4rK/horizon-forbidden-west-ps5-launch-box-front.webp",
         price: "R999"
 
     },
     {   
         id: 5,
         name: "The Last of Us Part 1 PS5",
-        image: "https://i.postimg.cc/L86CRDhc/gran-turismo-7-ps4-box-front.webp",
+        image: "https://i.postimg.cc/X7W114W7/ps5-tlou-part-1-game-box-front.webp",
         price: "R999"
 
     },
@@ -44,9 +44,13 @@ let products = [
 
 let productList = document.querySelector(".java");
     products.forEach((data)=>{
-        productList.innerHTML =`
-        <div>
-        <img src="${products[0].image}" alt="PS4" width="100rem">
+        productList.innerHTML +=`
+        <div class=" box">
+        <img src="${data.image}" class="card-img-top" alt="${data.name}">
+            <div class="card-body text-light">
+                    <h5 class="card-title">${data.name}</h5>
+                    <p>${data.price}</p>
+            </div>
         </div>
         `
     })

@@ -3,7 +3,7 @@ img[alt="Logo"]{
 }
 
 body{
-    background-image: url(https://i.postimg.cc/PxCjQ1jv/wallpaperflare-com-wallpaper-1.jpg);
+    background-image: url(https://i.postimg.cc/TYbFhM5M/wallpaperflare-com-wallpaper.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -11,7 +11,17 @@ body{
     height: auto;
 }
 
-.body{
-    height: 80vh;
 
+.box{
+    width: 20rem;
+    object-fit: contain;
+    aspect-ratio: 3 / 2;
+    margin: 0.5rem;
+    
+}
+
+.java {
+    display: flex;
+    margin: 2rem;
+    margin-top: 10rem;
 }
