@@ -1,0 +1,35 @@
+img[alt="Logo"]{
+    width: 3rem;
+}
+
+body{
+    background-image: url(https://i.postimg.cc/BZmHDXD2/wallpaperflare-com-wallpaper-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    height: auto;
+}
+
+.body{
+    height: 80vh;
+
+}
+
+button{
+    border-radius: 7%;
+    padding: .5rem;
+    border: 0;
+    opacity: 0.8;
+    background-color: black;
+    color: white;   
+}
+button:hover{
+    opacity: 1;
+    background-color: white;
+    color: black;
+}
+
+.buttons{
+    margin-top: 5rem;
+}

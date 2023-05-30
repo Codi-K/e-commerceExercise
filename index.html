@@ -1,22 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- favicon -->
-    <link rel="shortcut icon" href="https://cdn.betterttv.net/emote/61207b4b76ea4e2b9f787268/1x.webp" type="image/x-icon">
+    <link rel="shortcut icon" href="https://cdn.betterttv.net/emote/61207b4b76ea4e2b9f787268/1x.webp"
+        type="image/x-icon">
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css">
     <title>Home</title>
 </head>
+
 <body>
-    
-    <!-- script -->
-    <script src="./script/code.js"></script>
+    <!-- Navbar -->
+    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <!-- Logo -->
+                <img class="img-fluid" src="https://cdn.betterttv.net/emote/5ecd0ea0924aa35e32a5f2bc/3x.gif" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./html/product.html">Consoles & Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./html/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="body">
+        <!-- body -->
+        <div class="heading d-flex justify-content-center">
+            <h2>
+                Welcome to the Land of Gaming
+            </h2>
+        </div>
+        <div class="buttons d-flex justify-content-center gap-3">
+            <a href="./html/product.html"><button> Consoles & Games</button></a>
+            <a href="./html/contact.html"><button> Contact us</button></a>
+        </div>
+    </main>
+    <footer class="footer">
+        <!-- footer -->
+        <p class="foot d-flex justify-content-center text-light">
+            CopyRight &copy; Land of Gaming 2023
+        </p>
+    </footer>
+
     <!-- bootstrap  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <!-- script -->
+    <script src="../script/code.js"></script>
 </body>
+
 </html>
