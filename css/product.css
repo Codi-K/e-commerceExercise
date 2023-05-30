@@ -1,0 +1,17 @@
+img[alt="Logo"]{
+    width: 3rem;
+}
+
+body{
+    background-image: url(https://i.postimg.cc/PxCjQ1jv/wallpaperflare-com-wallpaper-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    height: auto;
+}
+
+.body{
+    height: 80vh;
+
+}
